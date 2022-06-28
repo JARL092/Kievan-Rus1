@@ -1,0 +1,103 @@
+.LOGO {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    color: beige;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: green;
+}
+
+header nav {
+margin-left: 70px;
+width: 150px;
+height: 100%;
+}
+
+header ul {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+header ul li {
+height: 100%;
+display: flex;
+align-items: center;
+}
+ul {
+list-style-type: none;
+}
+#video {
+    width: 60vw;
+    height: 300px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.videoinfo {
+    width: 25vw;
+    margin-left: 30px;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/4d/68/88/4d6888f49c0e6aaba52db264fbece889.jpg);
+color: green ;
+font-family: 'Ruslan Display', cursive;
+}
+.menu {
+    height: 350px;
+    width: 20%;
+    background-color: brown;
+    float: left;
+}
+.myButton {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-webkit-border-radius:42px;
+	-moz-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:19px;
+	padding:12px 35px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #283966;
+}
+.myButton:hover {
+	background:webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100% );
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100% width 50%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100% width);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progidDi2,GradientType=0;
+    background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+p{
+    text-align: justify;
+    text-indent: 36px;
+    line-height: 20px;
+}
